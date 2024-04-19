@@ -1,0 +1,11 @@
+.side-Bar{
+    margin-left: -24rem;
+    margin-top: 3rem;
+    font-size: larger;
+}
+@media screen and (max-width: 1410px) {
+    .side-Bar{
+        display: none;
+        
+    }
+}

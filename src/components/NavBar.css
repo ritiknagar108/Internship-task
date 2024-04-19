@@ -1,0 +1,160 @@
+.navbar{
+    height: 72px;
+    position: sticky;
+    
+}
+.container-fluid{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+   }
+
+.Search-Box {
+    background-color: #F2F2F2;
+    Width: 360px;
+    Height: 42px;
+    
+    border-radius: 21px;
+    align-items: center !important;
+    font-size: larger;
+}
+p{
+    line-height: 20.8px;
+    font-size: larger;
+}
+.A-tag{
+    color: #339AF0 !important;
+    text-decoration: none;
+    font-size: larger;
+}
+.A-tag:hover{
+    cursor: pointer;
+}
+.f-pass{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:black !important;
+
+}
+
+
+
+
+.overlay{
+    background: rgb(49, 49, 49,0.8);
+    
+}
+.close-modal {
+    position: absolute;
+    top: -30px;
+    right: -10px;
+    padding: 5px 7px;
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #fbfafa;
+    
+    border-radius: 3px;
+    max-width: 800px;
+    min-width: 450px;
+    z-index: 10000;
+    height: 64%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.Main-modal{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+
+}
+.Main-modal-head{
+    height: 10%;
+    width: 100%;
+    background-color: #EFFFF4;
+    color: #008A45;
+    font-size: small;
+    border-radius: 15px;
+}
+.Main-modal-content{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.login-signup{
+    width: 50%;
+}
+.M-0, .P-0{
+    margin: 0;
+    padding: 0;
+}
+.col-md-6{
+    padding: 0;
+}
+.col-md-11{
+    padding: 0;
+    margin: 0;
+    border-radius: 0 !important;
+}
+.inp-ut{
+    width: 109%;
+    border-radius: 0 !important;
+}
+.form-control{
+    border-radius: 0 !important;
+}
+
+.login-toggler{
+    width: 50%;
+
+}
+.log-image{
+  width: 100% !important;
+  height: auto !important
+  ;
+}
+.b-text{
+    font-size: small;
+    color:black;
+}
+.h-text{
+    font-size: medium;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 5%;
+}
+.g-3{
+    width: 88%;
+    margin-left: 5%;
+}
+.a-tag{
+    color: #339AF0 !important;;
+}
+.btn4{
+    border-radius: 26px;
+}
+.search-bar input::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+
+  @media screen and (max-width: 875px) {
+    .navbar{
+        display: none;
+    }
+  }
+  

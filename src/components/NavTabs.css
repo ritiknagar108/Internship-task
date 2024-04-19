@@ -1,0 +1,145 @@
+.NavTabs {
+    width: 72.222222%;
+    margin: 0 13% 0 13%;
+
+}
+
+.nav-link {
+    text-decoration: none !important;
+    color: #8A8A8A !important;
+}
+
+.active {
+    color: black !important;
+}
+
+.card {
+    margin: 1rem;
+}
+
+.C-img {
+    height: 13rem;
+}
+
+.Card-Text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 35.7px !important;
+
+}
+
+.User-img1 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/d809/8d9d/f42d73f4b2b7835b4c918c4edcf10f64?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jsmG-ZoUnlON3A3ZbCB54sPIcnH~vyiGeh1IOmgUJhP6TxommJ4NxovduM-KmaE~v8YgV-2i-tMsx-pWcaOEGV-o2JkwSw~YW4JVsdiK65gPyGdICoP4KbhzKHMF8U60NVYgOV7r3TY8FQAieJRHysAAuOxBE3HMY40SfuBU21b95zbiQtXRtF1kg4~lvaeE5oaPyEfP6Nk7D3d90N2pbBN6rPTcl7xF4CjHTN8lNGwaY~YwLVfCgQdbyITZiXyzj2Fph3Sfsyj3n4JZlyZrB~29krPtfO6bYQWCWT2jbj5T9bIlHdME-cHh7zs3SnX~P4Ipd~gCd39-6Ndg5Pf2ag__");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+
+}
+
+.User-img {
+
+    background: url("https://s3-alpha-sig.figma.com/img/c20f/9a59/15d7211204149d93adda6dfafb5d81f2?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cFw73mS-ylxPTeVEGgs7LXt6w7c5hskUKKPdPO7bN8FlwVRPvJ7hfsErw29eMZWcN42awd89PM05nSKETw9WWGtfMt-6I-Nho~SgrOhlFKArCM1r-b3ZxsHaalFSBevAzjKz4t1taYtY4DCZ1M9yHpboWrSgB7JeDg8d-USHyEkTi9sO2VqTXSxsOPUY0ULjG~KNZDfVahXVtRpoXX0iQ8Bl8-Q7DGtvpRxVuYbCBWlXK2bkD16y45bwCXhOU6dNvgNBBS0V-cSAYU8pIl~hi0Fosh-qxhcVtAZhPvTYIEsac4jwu~ulFOG8NzHzJWMLVbDaWBxYu9QGRoSzo-NzNQ__");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.User-img2 {
+
+    background: url("https://s3-alpha-sig.figma.com/img/b8a9/097f/c3ac7682e52df2e10d0a36ec3f243a44?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cdTiifG6krVdTB9~DOM~cdE4poKGxg7Y70apDK9-qsw1jZxmD0uFSH6Xm0lE1w~LL-N41QTnjPMNFxvYLa4KMdh7jBOXgMS-ebG2oQL5uOvjxyOxWgLcCp7d1NurGxx66T8WL6IzW4-1KqDzZMaFRcN8WVyUejay7boZ8Thqqbx2X4P2pPi1Qimhr34pRdqnj9lAHI59xRpWHBRcwyGaJrJ77NZHp92Fb5xouerxR3QSHnOF2vnDMYPk4LuDvpp7HuOptPJGCvZ6AHy3ytGZ7qCcPQh9-KstRDst9NG8p7q9Yf3f6ZzvLTXJ5srpRYpPOEcrbth2eyvL~QxPR1vmJQ__");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.User-img3 {
+
+    background: url("https://s3-alpha-sig.figma.com/img/8199/8e3c/09c5683fd07ee58841475464a08ce69f?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YbZ93A9-eshgmSUrNJwA8v32ksKNMoZZKv~gXqYcYWI5ucJrjf3lM0lh9HNQ8VVUP9gMVi5futGAkLJ6i0JgJPzaPOlURRKmBco3WPtn~yQyvdtGBMciJ0Na3V8uPd9Vz6S9xvIPeHwzX2ewitpR3kA2jfUwZOiKO5poUTKkCzyD9q8fFiZ8KZBY2J5dsVqGGx0Hk7NFIbtxx7q7mAUYY18FWotGv52Mrf24k7HXu06tedSXFgNvgj0wzdY2VMXXqOfhLmbsmo-gXUSnSYlKZqOMYj0bIXldh0K7mhazyFoc9f7Q04dU4VkJnKihEpuoB2HR~8LU3FieQNHZpKFyRQ__");
+    background-size: cover;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.bottom-card{
+    padding-top: 0 !important;
+}
+.date-location{
+    font-size: 15px;
+    margin: 0.6rem;
+}
+h6{
+    font-size: 18px;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.User-Box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.btn-share {
+    background-color: #EDEEF0
+}
+.cards{
+    margin-left: 4vw;
+}
+.NavTabs{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    justify-content:space-between ;
+    height: 54px;
+}
+.NavTab{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    
+    margin-top: 0.8rem;
+    width: 19rem;
+}
+li{
+    text-decoration: none !important;
+}
+ul{
+    text-decoration: none !important;    
+}
+@media screen and (max-width: 824px) {
+    .cards{
+       
+        margin-left: 0; 
+    }
+}
+@media screen and (max-width: 910px) {
+    .NavTabs{
+       display: none;
+    }
+}
+@media screen and (max-width: 720px) {
+    .card{
+        width: 21rem !important;;
+    }
+    .cards{
+        margin-left: 2rem; 
+    }
+}
